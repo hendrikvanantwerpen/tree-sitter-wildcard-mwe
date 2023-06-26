@@ -11,12 +11,12 @@ To reproduce:
 
 The output shows eight matches, among which the following two:
 
-   pattern: 0
-     capture: 1 - parent, start: (0, 0), end: (0, 10), text: `// test.js`
-     capture: 0 - child, start: (2, 4), end: (2, 15), text: `answer = 42`
-   pattern: 0
-     capture: 1 - parent, start: (2, 0), end: (2, 16), text: `let answer = 42;`
-     capture: 0 - child, start: (2, 4), end: (2, 15), text: `answer = 42`
+    pattern: 0
+      capture: 1 - parent, start: (0, 0), end: (0, 10), text: `// test.js`
+      capture: 0 - child, start: (2, 4), end: (2, 15), text: `answer = 42`
+    pattern: 0
+      capture: 1 - parent, start: (2, 0), end: (2, 16), text: `let answer = 42;`
+      capture: 0 - child, start: (2, 4), end: (2, 15), text: `answer = 42`
 
 The second one of these is correct, but the first one is not.
 
